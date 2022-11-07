@@ -7,6 +7,10 @@ public class Solution {
             return 0;
         }
 
+        return sumMultiplesOf3and5(number);
+    }
+
+    private static int sumMultiplesOf3and5(int number) {
         int sum = 0;
         for (int i = 0; i < number; i++) {
             if (i % 15 == 0) {
