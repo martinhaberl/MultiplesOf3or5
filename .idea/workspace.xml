@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b82067-8e5a-478b-ac3b-1925e7bf6657" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kata.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/martinhaberl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/martinhaberl/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/martinhaberl/SolutionTest.java" afterDir="false" />
+    <list default="true" id="08b82067-8e5a-478b-ac3b-1925e7bf6657" name="Changes" comment="first try with all tests green">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/martinhaberl/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/martinhaberl/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/martinhaberl/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/martinhaberl/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +43,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/Martin Haberl/Repositories/Katas/MultiplesOf3or5/src/test/java"
   }
 }]]></component>
@@ -65,7 +55,7 @@
       <recent name="de.martinhaberl" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MultiplesOf3or5" />
       <extension name="coverage">
@@ -81,9 +71,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.positive10Returns23" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiplesOf3or5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.martinhaberl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.martinhaberl" />
+      <option name="MAIN_CLASS_NAME" value="de.martinhaberl.SolutionTest" />
+      <option name="METHOD_NAME" value="positive10Returns23" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.positive17Returns60" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiplesOf3or5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.martinhaberl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.martinhaberl" />
+      <option name="MAIN_CLASS_NAME" value="de.martinhaberl.SolutionTest" />
+      <option name="METHOD_NAME" value="positive17Returns60" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.positive10Returns23" />
+        <item itemvalue="JUnit.SolutionTest.positive17Returns60" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667803401086</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1667804784324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667804784324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="first try with all tests green" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try with all tests green" />
   </component>
 </project>
